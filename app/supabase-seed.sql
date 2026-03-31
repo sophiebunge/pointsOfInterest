@@ -1,4 +1,5 @@
--- Run this in the Supabase SQL Editor to add test artworks
+-- Exhibition App — Seed Data
+-- Run this after schema.sql to add test artworks
 
 INSERT INTO artworks (nfc_code, title, artist, description) VALUES
   ('artwork-01', 'Untitled No. 3', 'Anna Müller', 'A meditation on absence and space, rendered in charcoal and raw pigment.'),
@@ -7,5 +8,5 @@ INSERT INTO artworks (nfc_code, title, artist, description) VALUES
   ('artwork-04', 'Residue', 'Lena Brandt', 'Cast resin objects embedded with personal artifacts — a taxonomy of loss.'),
   ('artwork-05', 'Exit Interview', 'David Park', 'Two-channel video work. Duration 14:30. Headphones required.');
 
--- To verify:
+-- Verify:
 SELECT * FROM artworks;
