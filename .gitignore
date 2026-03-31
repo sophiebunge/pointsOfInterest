@@ -9,7 +9,7 @@ out/
 
 # Environment variables — NEVER commit these
 .env
-supabase/.env.local
+.env.local
 .env.development.local
 .env.test.local
 .env.production.local
